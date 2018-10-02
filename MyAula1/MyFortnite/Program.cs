@@ -11,9 +11,9 @@ namespace MyFortnite {
             FNPlayer p1 = new FNPlayer();
             FNPlayer p2 = new FNPlayer(100, 50);
 
-            Console.WriteLine("P2's health before: " + p2.health);
+            Console.WriteLine("P2's health before: " + p2.GetHealth());
             p1.Attack(p2);
-            Console.WriteLine("P2's health after: " + p2.health);
+            Console.WriteLine("P2's health after: " + p2.GetHealth());
         }
     }
 }
