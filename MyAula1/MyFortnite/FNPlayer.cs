@@ -15,5 +15,15 @@
             health -= damage;
         }
 
+        public FNPlayer() {
+
+            ammo = 0;
+            health = 100;
+        }
+
+        public FNPlayer(int ammo, float health) {
+            this.ammo = ammo;
+            this.health = health;
+        }
     }
 }
